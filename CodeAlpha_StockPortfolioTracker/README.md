@@ -1,66 +1,75 @@
-# Stock Portfolio Tracker
+# CodeAlpha Internship Projects
 
-## Description
+## Overview
 
-Stock Portfolio Tracker is a Python-based GUI application developed using Tkinter. This application allows users to manually enter stock symbols and quantities, calculate investment values using predefined stock prices, and manage a simple stock portfolio.
+This repository contains Python projects completed as part of the *CodeAlpha Internship Program*. The projects focus on Python fundamentals, GUI development, file handling, and problem-solving using Python and Tkinter.
 
-The project was developed as part of the CodeAlpha Internship Program and demonstrates Python fundamentals such as dictionaries, arithmetic operations, file handling, and GUI development.
+---
 
-## Features
+## Projects Included
 
-* Manual stock symbol entry
-* Hardcoded stock price dictionary
-* Portfolio management using a Listbox interface
-* Add multiple stock holdings
-* Separate "Calculate Total" button
-* Display stock quantity, price, and investment value
-* Remove selected holdings
-* Clear portfolio
-* Export portfolio reports as TXT files
-* Export portfolio reports as CSV files
-* Input validation and error handling
+### 📊 Stock Portfolio Tracker
+
+A GUI-based application that allows users to manage stock investments and calculate portfolio value using predefined stock prices.
+
+*Features*
+
+* Add stock symbols and quantities
+* Calculate portfolio value
+* Manage stock holdings
+* Save reports as TXT files
+* Export data as CSV files
 * User-friendly Tkinter interface
+
+📁 Folder: CodeAlpha_StockPortfolioTracker
+
+---
+
+### 💬 Basic Chatbot
+
+A GUI-based chatbot that responds to user inputs using predefined responses and provides a simple conversational experience.
+
+*Features*
+
+* Interactive chat interface
+* Greeting responses
+* Date and time information
+* Help command
+* Save chat history
+* Clear chat functionality
+* User-friendly Tkinter interface
+
+📁 Folder: CodeAlpha_BasicChatbot
+
+---
 
 ## Technologies Used
 
 * Python 3
 * Tkinter
 * CSV Module
-* File Handling
-* Object-Oriented Programming (OOP)
+* Datetime Module
 
-## Concepts Demonstrated
+---
 
-* Dictionaries
-* Functions
-* Classes and Objects
-* Arithmetic Operations
-* Input and Output
-* File Handling
-* GUI Development with Tkinter
-
-## How to Run
-
-1. Download or clone the repository.
-2. Open a terminal in the project folder.
-3. Run the following command:
-
-bash
-python stock_tracker.py
-
-
-## Project Structure
+## Repository Structure
 
 text
-CodeAlpha_StockPortfolioTracker/
-├── stock_tracker.py
+codealpha_task/
+│
+├── CodeAlpha_BasicChatbot/
+│   └── README.md
+│
+├── CodeAlpha_StockPortfolioTracker/
+│   └── README.md
+│
 └── README.md
 
 
+---
+
 ## Author
 
-Sanjith
+*Sanjith*
 
-## Note
-
-This application uses hardcoded stock prices for educational and demonstration purposes only. It is not connected to real-time stock market data.
+CodeAlpha Internship Project Submission
